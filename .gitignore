@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+clustered_returns.csv
+categorized_returns.csv
+category_summary.csv
