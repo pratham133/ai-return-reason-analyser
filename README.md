@@ -1,16 +1,16 @@
 # AI-Powered E-commerce Return Reason Analyser
 
 Categorizes raw customer return reasons, finds root causes, and prioritizes
-product/ops fixes — the kind of analysis a Data Analyst or Product Analyst
+product/ops fixes the kind of analysis a Data Analyst or Product Analyst
 does to reduce return-driven revenue loss.
 
 ## Problem
 Returns cost D2C/e-commerce brands 15-25% of revenue. Return reason text is
 usually free-form and unstructured, so most teams never systematically
-analyze *why* items come back — they just process refunds.
+analyze *why* items come back they just process refunds.
 
 ## Approach
-This isn't a single Claude prompt — it's a small NLP pipeline:
+This isn't a single Claude prompt it's a small NLP pipeline:
 
 1. **Text cleaning** — spaCy lemmatization, stopword & punctuation removal
 2. **Vectorization** — TF-IDF (unigrams + bigrams) on cleaned return reasons
