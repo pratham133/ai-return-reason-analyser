@@ -79,8 +79,3 @@ Python, spaCy, scikit-learn (TF-IDF, KMeans), pandas, openpyxl
   (Claude API) to auto-name clusters instead of manual rules
 - Add month-over-month tracking so category volumes are trended, not
   point-in-time
-
-## Resume line
-"Built an NLP-based return analysis pipeline (spaCy + TF-IDF + KMeans) that
-clusters unstructured return reasons, identifies root causes, and generates
-a prioritized fix recommendation dashboard for product/ops teams."
